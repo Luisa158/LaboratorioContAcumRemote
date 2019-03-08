@@ -5,7 +5,7 @@ contador = 0
 for i in range(2,a):
   if a % i == 0:
     contador +=1
-    print("divisor:", a)
+    print("divisor:", i)
 
 if contador > 0 :
   print("El número no es primo" )
