@@ -1,9 +1,9 @@
 
-x=int(input("Por favor, ingrese un número: "))
-y=int(input("Por favor, ingrese otro número: "))
+cont = 0
 
-if x%y==0:
-    print("División exacta")
+a=int(input("Por favor, ingrese un número: "))
 
-else:
-    print("No es división exacta")
+for i in range (1,a+1,1):
+    div = a%i
+    print("El residuo es: ", div)
+
